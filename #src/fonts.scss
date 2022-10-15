@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Oranienbaum";
+  src: url("../fonts/Oranienbaum-Regular.eot");
+  src: local("Oranienbaum"), local("Oranienbaum-Regular"),
+    url("../fonts/Oranienbaum-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Oranienbaum-Regular.woff2") format("woff2"),
+    url("../fonts/Oranienbaum-Regular.woff") format("woff"),
+    url("../fonts/Oranienbaum-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
