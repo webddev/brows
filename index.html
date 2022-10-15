@@ -42,7 +42,7 @@
           <h3 class="advantages__h3">
             Ми розробили ідеальний штамп для ідеальної форми та густоти брів
           </h3>
-          <img src="img/gif1.png" alt="Brows" />
+          <img src="img/gif1.gif" alt="Brows" />
           <ul class="advantages__ul custom-ul">
             <li><p class="custom-ul__eyebrows">Натуральний ефект</p></li>
             <li><p class="custom-ul__hand">Водовідштовхувальна формула</p></li>
@@ -74,9 +74,10 @@
                 required
               />
             </div>
-            <div class="form__choose-color choose-color">
-              <label
+            <fieldset id="color" class="form__choose-color choose-color">
+              <label class="color__label"
                 ><input
+                  class="asd"
                   type="radio"
                   name="Color"
                   value="light-brown"
@@ -85,7 +86,7 @@
                 <img src="img/lightbrown.png" alt="" />
                 <p>Light Brown</p>
               </label>
-              <label
+              <label class="color__label"
                 ><input
                   type="radio"
                   name="Color"
@@ -95,7 +96,7 @@
                 <p>Brown</p></label
               >
 
-              <label
+              <label class="color__label"
                 ><input
                   type="radio"
                   name="Color"
@@ -106,13 +107,13 @@
                 <p>Dark Brown</p></label
               >
 
-              <label
+              <label class="color__label"
                 ><input type="radio" name="Color" id="black" value="black" />
 
                 <img src="img/black.png" alt="" />
                 <p>Black</p>
               </label>
-            </div>
+            </fieldset>
             <button type="submit" class="btn-buy">замовити зі знижкою</button>
           </form>
         </div>
@@ -129,7 +130,7 @@
             Розроблений із п’ятьма різними штампами для створення різноманітних
             образів , цей інноваційний штамп робить нанесення брів легким.
           </p>
-          <img src="img/gif2.png" alt="Brows" />
+          <img src="img/gif2.gif" alt="Brows" />
         </div>
       </section>
       <section class="instuction">
@@ -194,7 +195,7 @@
               class="results__photo"
             />
           </div>
-          <div class="results__block">
+          <div class="results__block border">
             <div class="results__block-row">
               <img src="img/rewiew-person2.png" alt="Maria" />
               <div class="results__name">
@@ -219,7 +220,7 @@
               class="results__photo"
             />
           </div>
-          <div class="results__block">
+          <div class="results__block border">
             <div class="results__block-row">
               <img src="img/rewiew-person3.png" alt="Larisa" />
               <div class="results__name">
@@ -244,7 +245,7 @@
               class="results__photo"
             />
           </div>
-          <div class="results__block">
+          <div class="results__block hidden">
             <div class="results__block-row">
               <img src="img/rewiew-person4.png" alt="Victoria" />
               <div class="results__name">
@@ -268,7 +269,7 @@
               class="results__photo"
             />
           </div>
-          <div class="results__block">
+          <div class="results__block hidden">
             <div class="results__block-row">
               <img src="img/rewiew-person5.png" alt="Olexandra" />
               <div class="results__name">
@@ -294,6 +295,7 @@
               class="results__photo"
             />
           </div>
+          <p class="show-more">Читать больше отзывов</p>
         </div>
       </section>
       <section class="order">
@@ -355,9 +357,10 @@
                 required
               />
             </div>
-            <div class="form-2__choose-color choose-color">
-              <label
+            <fieldset id="color2" class="form__choose-color choose-color">
+              <label class="color__label"
                 ><input
+                  class="asd"
                   type="radio"
                   name="Color"
                   value="light-brown"
@@ -366,7 +369,7 @@
                 <img src="img/lightbrown.png" alt="" />
                 <p>Light Brown</p>
               </label>
-              <label
+              <label class="color__label"
                 ><input
                   type="radio"
                   name="Color"
@@ -376,7 +379,7 @@
                 <p>Brown</p></label
               >
 
-              <label
+              <label class="color__label"
                 ><input
                   type="radio"
                   name="Color"
@@ -387,13 +390,13 @@
                 <p>Dark Brown</p></label
               >
 
-              <label
+              <label class="color__label"
                 ><input type="radio" name="Color" id="black" value="black" />
 
                 <img src="img/black.png" alt="" />
                 <p>Black</p>
               </label>
-            </div>
+            </fieldset>
             <button type="submit" class="btn-buy">замовити зі знижкою</button>
           </form>
           <div class="form-2__price price">
@@ -447,6 +450,7 @@
     <script type="text/javascript">
       $("input[name=phone]").mask("+40999999999");
     </script>
+    <script src="js/button.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
