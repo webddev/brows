@@ -12,9 +12,17 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.eot");
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -32,7 +40,8 @@ html {
   }
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Oranienbaum";
   font-style: normal;
   font-weight: 400;
@@ -48,34 +57,24 @@ h1 {
   margin-bottom: 7px;
 }
 @media (max-width: 397px) {
-  h1 {
+  h1,
+h2 {
     font-size: 37px;
   }
 }
 @media (max-width: 345px) {
-  h1 {
+  h1,
+h2 {
     font-size: 35px;
   }
 }
 
-h2 {
-  font-family: "Oranienbaum";
-  font-style: normal;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 36px;
-  background: -webkit-gradient(linear, left top, right top, from(#393939), to(#787878));
-  background: linear-gradient(90deg, #393939 0%, #787878 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  margin: 0;
+.tac {
+  text-align: center;
 }
-@media (max-width: 397px) {
-  h2 {
-    font-size: 34px;
-  }
+
+.special {
+  font-size: 36px;
 }
 
 h3 {
@@ -116,7 +115,6 @@ p {
 
 a {
   text-decoration: none;
-  text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -280,6 +278,12 @@ img {
   -webkit-box-shadow: 0px 3px 0px #6e1e90, inset 0px 4px 8px rgba(255, 255, 255, 0.2);
           box-shadow: 0px 3px 0px #6e1e90, inset 0px 4px 8px rgba(255, 255, 255, 0.2);
   border-radius: 8px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
 }
 @media (max-width: 380px) {
   .btn-buy {

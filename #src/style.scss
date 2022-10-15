@@ -3,6 +3,7 @@
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 .container {
   margin: 0 auto;
@@ -14,7 +15,8 @@ html {
     max-width: 420px;
   }
 }
-h1 {
+h1,
+h2 {
   font-family: "Oranienbaum";
   font-style: normal;
   font-weight: 400;
@@ -34,22 +36,15 @@ h1 {
     font-size: 35px;
   }
 }
-h2 {
-  font-family: "Oranienbaum";
-  font-style: normal;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 36px;
-  background: linear-gradient(90deg, #393939 0%, #787878 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  margin: 0;
-  @media (max-width: 397px) {
-    font-size: 34px;
-  }
+
+.tac {
+  text-align: center;
 }
+
+.special {
+  font-size: 36px;
+}
+
 h3 {
   font-family: "Montserrat";
   font-style: normal;
@@ -81,7 +76,6 @@ p {
 }
 a {
   text-decoration: none;
-  text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -226,6 +220,12 @@ img {
     linear-gradient(90deg, #ab16c4 0%, #792c9b 100%);
   box-shadow: 0px 3px 0px #6e1e90, inset 0px 4px 8px rgba(255, 255, 255, 0.2);
   border-radius: 8px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
   @media (max-width: 380px) {
     padding: 25px 41px;
   }

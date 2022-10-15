@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="subid1" value="{subid}" />
+    <script src="https://calibere.store/lander/rem-9-evro_16445114823/2.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Brows</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <title>GOODLY BROW STAMP</title>
   </head>
-  <body>
+  <body class="lang-ro">
     <main>
       <section class="main-section">
         <h1 class="main-section__h1">Goodly Brow Stamp</h1>
@@ -25,13 +32,13 @@
             <span class="price__newprice">15,99€</span>
           </div>
         </div>
-        <a href="#" class="main-section__btn-buy btn-buy">
+        <a href="#form-1" class="main-section__btn-buy btn-buy">
           замовити зі знижкою
         </a>
       </section>
       <section class="advantages">
         <div class="container">
-          <h1 class="advantages__h1">Ідеальні брови за лічені секунди!</h1>
+          <h2 class="advantages__h1">Ідеальні брови за лічені секунди!</h2>
           <h3 class="advantages__h3">
             Ми розробили ідеальний штамп для ідеальної форми та густоти брів
           </h3>
@@ -43,9 +50,9 @@
           </ul>
         </div>
       </section>
-      <section class="form">
+      <section id="form-1" class="form">
         <div class="container">
-          <h1>Встигніть замовити зі знижкою</h1>
+          <h2 class="tac">Встигніть замовити зі знижкою</h2>
           <h3>
             Попрощайтеся з щоденною боротьбою з нанесенням макіяжу на брови
           </h3>
@@ -56,12 +63,15 @@
                 name="Name"
                 id="name"
                 placeholder="Ваше ім’я"
+                required
               />
               <input
-                type="text"
-                name="Number"
+                type="tel"
+                name="phone"
                 id="number"
+                value="+40"
                 placeholder="Ваш номер"
+                required
               />
             </div>
             <div class="form__choose-color choose-color">
@@ -103,13 +113,13 @@
                 <p>Black</p>
               </label>
             </div>
-            <a href="#" class="btn-buy"> замовити зі знижкою </a>
+            <button type="submit" class="btn-buy">замовити зі знижкою</button>
           </form>
         </div>
       </section>
       <section class="all-day">
         <div class="container">
-          <h1 class="all-day__h1">Почувайся впевнено протягом всього дня</h1>
+          <h2 class="all-day__h1">Почувайся впевнено протягом всього дня</h2>
           <p class="all-day__p">
             Інноваційний штамп для брів Goodly дозволяє легко і швидко створити
             ідеальні брови. Розроблений для точності , максимального контролю та
@@ -124,7 +134,7 @@
       </section>
       <section class="instuction">
         <div class="container">
-          <h2>Як це працює?</h2>
+          <h2 class="special">Як це працює?</h2>
           <ul class="instuction__list">
             <li class="instuction__item">
               <p class="or-list1">
@@ -153,12 +163,12 @@
               </p>
             </li>
           </ul>
-          <a href="#" class="btn-buy"> замовити зі знижкою </a>
+          <a href="#form-2" class="btn-buy"> замовити зі знижкою </a>
         </div>
       </section>
       <section class="results">
         <div class="container">
-          <h1>Результати наших клієнток</h1>
+          <h2 class="tac">Результати наших клієнток</h2>
           <h3>Отримайте брови, про які ви завжди мріяли</h3>
           <div class="results__block">
             <div class="results__block-row">
@@ -288,7 +298,7 @@
       </section>
       <section class="order">
         <div class="container">
-          <h1>Як зробити замовлення?</h1>
+          <h2>Як зробити замовлення?</h2>
           <h3>Дуже просто! Всього 4 кроки</h3>
           <div class="order__row">
             <div class="order__item">
@@ -318,9 +328,9 @@
           </div>
         </div>
       </section>
-      <section class="form-2">
+      <section id="form-2" class="form-2">
         <div class="container">
-          <h1>Встигніть замовити зі знижкою</h1>
+          <h2 class="tac">Встигніть замовити зі знижкою</h2>
           <h3>
             Ідеально підходить, коли у вас немає багато часу на ранковий макіяж
           </h3>
@@ -331,15 +341,18 @@
             <div class="form-2__input-row">
               <input
                 type="text"
-                name="Name"
                 id="name"
+                name="name"
                 placeholder="Ваше ім’я"
+                required
               />
               <input
-                type="text"
-                name="Number"
+                type="tel"
                 id="number"
+                name="phone"
+                value="+40"
                 placeholder="Ваш номер"
+                required
               />
             </div>
             <div class="form-2__choose-color choose-color">
@@ -381,7 +394,7 @@
                 <p>Black</p>
               </label>
             </div>
-            <a href="#" class="btn-buy"> замовити зі знижкою </a>
+            <button type="submit" class="btn-buy">замовити зі знижкою</button>
           </form>
           <div class="form-2__price price">
             <div class="price__body">
@@ -392,7 +405,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <div class="footer">
       <div class="container">
         <div class="footer__row">
           <div class="footer__block">
@@ -411,6 +424,29 @@
           </div>
         </div>
       </div>
+    </div>
+    <footer class="aar" aeid="111">
+      <center aeid="3333">
+        <p>
+          Ads Maruv SRL, Iasi, bdul Alexandru cel Bun 14<br />
+          OGRN: 1197746695530 VAT: 7708365555 <br />
+          adsimvorisauv@gmail.com, <br />
+          <a href="politika.html" target="_blank" aeid="156">Privacy Policy</a
+          ><br />
+          <a href="agreement.html" target="_blank" aeid="156">Terms of use</a
+          ><br />
+          <a href="garantiya.html" target="_blank" aeid="156"
+            >Terms & Conditions</a
+          ><br />
+          <a href="page.html" target="_blank" aeid="156">Disclaimers</a><br />
+        </p>
+      </center>
     </footer>
+
+    <script src="https://calibere.store/lander/mask/mask.js"></script>
+    <script type="text/javascript">
+      $("input[name=phone]").mask("+40999999999");
+    </script>
+    <!-- <script src="js/main.js"></script> -->
   </body>
 </html>
