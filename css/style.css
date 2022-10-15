@@ -26,6 +26,11 @@ html {
     max-width: 480px;
   }
 }
+@media (min-width: 992px) {
+  .container {
+    max-width: 420px;
+  }
+}
 
 h1 {
   font-family: "Oranienbaum";

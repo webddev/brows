@@ -10,6 +10,9 @@ html {
   @media (min-width: 1px) {
     max-width: 480px;
   }
+  @media (min-width: 992px) {
+    max-width: 420px;
+  }
 }
 h1 {
   font-family: "Oranienbaum";
@@ -63,6 +66,7 @@ h3 {
     font-size: 14px;
   }
 }
+
 p {
   font-family: "Montserrat";
   font-style: normal;
